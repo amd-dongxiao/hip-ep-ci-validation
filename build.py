@@ -532,3 +532,5 @@ if __name__ == "__main__":
     except BuildError as exc:
         log.error(str(exc))
         sys.exit(1)
+
+# Shared LLVM integration test a
